@@ -1,0 +1,224 @@
+{
+  "films": [
+    {
+      "id": "1",
+      "title": "Esaretin Bedeli",
+      "year": 1994,
+      "durationMinutes": 142,
+      "genre": "Dram",
+      "rating": 9.3,
+      "description": "Haksız yere ömür boyu hapse mahkûm edilen bir bankacı, Shawshank Cezaevi'nde umudunu ve yıllar süren bir dostluğu korumaya çalışır.",
+      "posterUrl": "/posters/esaretin-bedeli.jpg",
+      "createdAt": "2026-09-01T18:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "title": "Baba",
+      "year": 1972,
+      "durationMinutes": 175,
+      "genre": "Suç",
+      "rating": 9.2,
+      "description": "Yaşlanan mafya lideri Vito Corleone'nin ailesi, imparatorluğun dizginlerini istemeden devralan küçük oğlu Michael'ın elinde değişir.",
+      "posterUrl": "/posters/baba.jpg",
+      "createdAt": "2026-09-02T18:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "title": "Kara Şövalye",
+      "year": 2008,
+      "durationMinutes": 152,
+      "genre": "Aksiyon",
+      "rating": 9.0,
+      "description": "Batman, Gotham'ı kaosa sürükleyen Joker karşısında adaletle intikam arasındaki çizgiyi korumak zorundadır.",
+      "posterUrl": "/posters/kara-sovalye.jpg",
+      "createdAt": "2026-09-03T18:00:00.000Z"
+    },
+    {
+      "id": "4",
+      "title": "Ucuz Roman",
+      "year": 1994,
+      "durationMinutes": 154,
+      "genre": "Suç",
+      "rating": 8.9,
+      "description": "İki tetikçi, bir boksör, bir gangster ve karısının hikâyeleri Los Angeles'ta beklenmedik biçimde kesişir.",
+      "posterUrl": "/posters/ucuz-roman.jpg",
+      "createdAt": "2026-09-04T18:00:00.000Z"
+    },
+    {
+      "id": "5",
+      "title": "Yüzüklerin Efendisi: Kralın Dönüşü",
+      "year": 2003,
+      "durationMinutes": 201,
+      "genre": "Fantastik",
+      "rating": 9.0,
+      "description": "Frodo ve Sam Hüküm Dağı'na yaklaşırken Aragorn, Orta Dünya'nın kaderini belirleyecek son savaş için halkları bir araya getirir.",
+      "posterUrl": "/posters/yuzuklerin-efendisi-kralin-donusu.jpg",
+      "createdAt": "2026-09-05T18:00:00.000Z"
+    },
+    {
+      "id": "6",
+      "title": "Başlangıç",
+      "year": 2010,
+      "durationMinutes": 148,
+      "genre": "Bilim kurgu",
+      "rating": 8.8,
+      "description": "Rüyalara sızarak sır çalan bir hırsıza bu kez tersini yapma, yani bir zihne fikir yerleştirme görevi verilir.",
+      "posterUrl": "/posters/baslangic.jpg",
+      "createdAt": "2026-09-06T18:00:00.000Z"
+    },
+    {
+      "id": "7",
+      "title": "Yıldızlararası",
+      "year": 2014,
+      "durationMinutes": 169,
+      "genre": "Bilim kurgu",
+      "rating": 8.7,
+      "description": "Kuraklığın tükettiği Dünya'dan yeni bir yuva bulmak için yola çıkan ekip, solucan deliğinin ötesinde zamanla yarışır.",
+      "posterUrl": "/posters/yildizlararasi.jpg",
+      "createdAt": "2026-09-07T18:00:00.000Z"
+    },
+    {
+      "id": "8",
+      "title": "Ruhların Kaçışı",
+      "year": 2001,
+      "durationMinutes": 125,
+      "genre": "Animasyon",
+      "rating": 8.6,
+      "description": "Ailesiyle terk edilmiş bir eğlence parkına giren Chihiro, ruhlar dünyasında anne babasını kurtarmak için bir hamamda çalışmaya başlar.",
+      "posterUrl": "/posters/ruhlarin-kacisi.jpg",
+      "createdAt": "2026-09-08T18:00:00.000Z"
+    },
+    {
+      "id": "9",
+      "title": "Parazit",
+      "year": 2019,
+      "durationMinutes": 132,
+      "genre": "Gerilim",
+      "rating": 8.5,
+      "description": "Yoksul Kim ailesi, zengin Park ailesinin evine birer birer sızar; ama evin bodrumu kimsenin bilmediği bir sır saklamaktadır.",
+      "posterUrl": "/posters/parazit.jpg",
+      "createdAt": "2026-09-09T18:00:00.000Z"
+    },
+    {
+      "id": "10",
+      "title": "Kuzuların Sessizliği",
+      "year": 1991,
+      "durationMinutes": 118,
+      "genre": "Gerilim",
+      "rating": 8.6,
+      "description": "Genç FBI ajanı Clarice Starling, bir seri katili yakalamak için hapisteki psikiyatrist Hannibal Lecter'dan yardım ister.",
+      "posterUrl": "/posters/kuzularin-sessizligi.jpg",
+      "createdAt": "2026-09-10T18:00:00.000Z"
+    },
+    {
+      "id": "11",
+      "title": "Forrest Gump",
+      "year": 1994,
+      "durationMinutes": 142,
+      "genre": "Dram",
+      "rating": 8.8,
+      "description": "İyi kalpli Forrest, farkında olmadan Amerikan tarihinin önemli anlarına tanıklık ederken çocukluk aşkı Jenny'yi hiç unutmaz.",
+      "posterUrl": "/posters/forrest-gump.jpg",
+      "createdAt": "2026-09-11T18:00:00.000Z"
+    },
+    {
+      "id": "12",
+      "title": "Matrix",
+      "year": 1999,
+      "durationMinutes": 136,
+      "genre": "Bilim kurgu",
+      "rating": 8.7,
+      "description": "Bilgisayar korsanı Neo, yaşadığı dünyanın makinelerin kurduğu bir simülasyon olduğunu öğrenir ve direnişe katılır.",
+      "posterUrl": "/posters/matrix.jpg",
+      "createdAt": "2026-09-12T18:00:00.000Z"
+    },
+    {
+      "id": "13",
+      "title": "Eşkıya",
+      "year": 1996,
+      "durationMinutes": 128,
+      "genre": "Suç",
+      "rating": 8.2,
+      "description": "Otuz beş yıl hapis yattıktan sonra çıkan Baran, kendisini ihbar eden dostunu ve kaybettiği sevdiğini bulmak için İstanbul'a gelir.",
+      "posterUrl": "/posters/eskiya.jpg",
+      "createdAt": "2026-09-13T18:00:00.000Z"
+    },
+    {
+      "id": "14",
+      "title": "Bir Zamanlar Anadolu'da",
+      "year": 2011,
+      "durationMinutes": 157,
+      "genre": "Dram",
+      "rating": 8.0,
+      "description": "Bir cinayet zanlısının gösterdiği cesedi aramak için bozkırda geçen uzun bir gece, ekipteki herkesin iç dünyasını açığa çıkarır.",
+      "posterUrl": "/posters/bir-zamanlar-anadolu-da.jpg",
+      "createdAt": "2026-09-14T18:00:00.000Z"
+    },
+    {
+      "id": "15",
+      "title": "Kış Uykusu",
+      "year": 2014,
+      "durationMinutes": 196,
+      "genre": "Dram",
+      "rating": 8.0,
+      "description": "Kapadokya'da bir otel işleten emekli oyuncu Aydın, kış bastırdıkça karısı ve kız kardeşiyle yüzleşmek zorunda kalır.",
+      "posterUrl": "/posters/kis-uykusu.jpg",
+      "createdAt": "2026-09-15T18:00:00.000Z"
+    },
+    {
+      "id": "16",
+      "title": "Amélie",
+      "year": 2001,
+      "durationMinutes": 122,
+      "genre": "Komedi",
+      "rating": 8.3,
+      "description": "Montmartre'da garsonluk yapan utangaç Amélie, çevresindeki insanların hayatını gizlice güzelleştirmeye karar verir.",
+      "posterUrl": "/posters/amelie.jpg",
+      "createdAt": "2026-09-16T18:00:00.000Z"
+    },
+    {
+      "id": "17",
+      "title": "Mad Max: Fury Road",
+      "year": 2015,
+      "durationMinutes": 120,
+      "genre": "Aksiyon",
+      "rating": 8.1,
+      "description": "Çöl kıyametinde Max, bir tiranın elinden kaçan Furiosa ve beş kadınla birlikte nefes kesen bir kaçışa sürüklenir.",
+      "posterUrl": "/posters/mad-max-fury-road.jpg",
+      "createdAt": "2026-09-17T18:00:00.000Z"
+    },
+    {
+      "id": "18",
+      "title": "Hayat Güzeldir",
+      "year": 1997,
+      "durationMinutes": 116,
+      "genre": "Komedi",
+      "rating": 8.6,
+      "description": "Yahudi bir kitapçı, toplama kampına götürüldüklerinde oğlunu korumak için her şeyin bir oyun olduğuna onu inandırır.",
+      "posterUrl": "/posters/hayat-guzeldir.jpg",
+      "createdAt": "2026-09-18T18:00:00.000Z"
+    },
+    {
+      "id": "19",
+      "title": "Babam ve Oğlum",
+      "year": 2005,
+      "durationMinutes": 108,
+      "genre": "Dram",
+      "rating": 8.4,
+      "description": "Darbe döneminde ailesiyle küsen Sadık, yıllar sonra küçük oğlunu babasının çiftliğine bırakmak için köyüne döner.",
+      "posterUrl": "/posters/babam-ve-oglum.jpg",
+      "createdAt": "2026-09-19T18:00:00.000Z"
+    },
+    {
+      "id": "20",
+      "title": "Whiplash",
+      "year": 2014,
+      "durationMinutes": 106,
+      "genre": "Dram",
+      "rating": 8.5,
+      "description": "Genç bir caz davulcusu, öğrencilerini sınırlarına kadar zorlayan acımasız bir öğretmenin gözüne girmek için her şeyi göze alır.",
+      "posterUrl": "/posters/whiplash.jpg",
+      "createdAt": "2026-09-20T18:00:00.000Z"
+    }
+  ]
+}
