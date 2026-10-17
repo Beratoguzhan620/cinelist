@@ -1,27 +1,29 @@
-import { Image, Text, View } from "react-native";
+import { Link } from "expo-router";
+import { Pressable, Text, View } from "react-native";
 
-import { resolvePosterUrl } from "@/lib/config";
+import { formatDuration, formatRating } from "@/lib/format";
 import type { Film } from "@/types/film";
 
-export function FilmRow({ film }: { film: Film }) {
-  const poster = resolvePosterUrl(film.posterUrl);
+import { Poster } from "./Poster";
 
+export function FilmRow({ film }: { film: Film }) {
   return (
-    <View className="flex-row items-center gap-3 border-b border-border bg-surface px-4 py-3">
-      {poster ? (
-        <Image source={{ uri: poster }} className="h-[72px] w-12 rounded bg-surface-2" accessibilityIgnoresInvertColors />
-      ) : (
-        <View className="h-[72px] w-12 rounded bg-surface-2" />
-      )}
-      <View className="flex-1">
-        <Text className="font-semibold text-base text-ink" numberOfLines={1}>
-          {film.title}
-        </Text>
-        <Text className="font-sans text-sm text-muted">
-          {film.genre} · {film.year} · {film.durationMinutes} dk
-        </Text>
-      </View>
-      <Text className="font-mono-medium text-base text-ink">{film.rating.toFixed(1)}</Text>
-    </View>
+    <Link href={{ pathname: "/films/[id]", params: { id: film.id } }} asChild>
+      <Pressable
+        accessibilityRole="link"
+        className="flex-row items-center gap-3 border-b border-border bg-surface px-4 py-3 active:bg-surface-2"
+      >
+        <Poster film={film} className="w-12" compact />
+        <View className="flex-1 gap-0.5">
+          <Text className="font-semibold text-base text-ink" numberOfLines={1}>
+            {film.title}
+          </Text>
+          <Text className="font-sans text-sm text-muted" numberOfLines={1}>
+            {film.genre} · {film.year} · {formatDuration(film.durationMinutes)}
+          </Text>
+        </View>
+        <Text className="font-mono-medium text-base text-ink">{formatRating(film.rating)}</Text>
+      </Pressable>
+    </Link>
   );
 }
