@@ -40,3 +40,4 @@ yarn-error.*
 .DS_Store
 Thumbs.db
 desktop.ini
+tests/e2e/output/

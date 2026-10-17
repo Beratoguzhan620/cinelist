@@ -17,9 +17,9 @@ Her aşama ayrı bir branch ve PR olarak yapılır (`stage/<no>-<kisa-ad>`). Bir
 - [x] `docs/DESIGN.md` token'ları `tailwind.config.js`'e işlenir; özel font
 
 ## Aşama 2 — Özellikler
-- [ ] Liste (poster grid/list geçişi, arama, tür filtresi, puana göre sıralama, pull-to-refresh)
-- [ ] Detay ekranı; ekleme ve düzenleme formu (doğrulama, görsel URL opsiyonel); silme onayı
-- [ ] Yükleniyor / hata / boş durumları; optimistic update
+- [x] Liste (poster grid/list geçişi, arama, tür filtresi, puana göre sıralama, pull-to-refresh)
+- [x] Detay ekranı; ekleme ve düzenleme formu (doğrulama, görsel URL opsiyonel); silme onayı
+- [x] Yükleniyor / hata / boş durumları; optimistic update
 
 ## Aşama 3 — Cila ve teslim
 - [ ] App icon + splash; `npx tsc --noEmit` ve lint temiz
