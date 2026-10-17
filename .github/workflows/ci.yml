@@ -1,0 +1,40 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install
+        run: pnpm install --frozen-lockfile
+
+      - name: Type check
+        run: pnpm typecheck
+
+      - name: Lint
+        run: pnpm lint
+
+      - name: Web build
+        run: pnpm build:web
+
+      - name: API smoke test
+        run: |
+          pnpm api > api.log 2>&1 &
+          for i in $(seq 1 30); do curl -sf http://localhost:5174/films > films.json && break; sleep 1; done
+          count=$(node -e "console.log(require('./films.json').length)")
+          echo "films: $count"
+          test "$count" -eq 20
+          curl -sf -o /dev/null http://localhost:5174/posters/esaretin-bedeli.jpg
