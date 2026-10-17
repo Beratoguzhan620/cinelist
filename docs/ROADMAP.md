@@ -11,10 +11,10 @@ Her aşama ayrı bir branch ve PR olarak yapılır (`stage/<no>-<kisa-ad>`). Bir
 > Orijinal ödev metni yalnızca yerelde `docs/brief/` klasöründe durur (git'e girmez); bütün gereksinimler bu dosyaya işlenmiştir. Gereksinim: Redux Toolkit + RTK Query + json-server; film adı, yıl, görsel, tür, puan, açıklama, süre.
 
 ## Aşama 1 — Kurulum
-- [ ] Expo (expo-router, TypeScript, NativeWind) projesi bu klasöre kurulur; pnpm
-- [ ] Redux store + redux-persist, RTK Query `baseUrl: http://localhost:5174`, `db.json` (20 film seed)
-- [ ] `package.json` script'leri (concurrently ile expo + json-server)
-- [ ] `docs/DESIGN.md` token'ları `tailwind.config.js`'e işlenir; özel font
+- [x] Expo (expo-router, TypeScript, NativeWind) projesi bu klasöre kurulur; pnpm
+- [x] Redux store + redux-persist, RTK Query `baseUrl: http://localhost:5174`, `db.json` (20 film seed)
+- [x] `package.json` script'leri (concurrently ile expo + json-server)
+- [x] `docs/DESIGN.md` token'ları `tailwind.config.js`'e işlenir; özel font
 
 ## Aşama 2 — Özellikler
 - [ ] Liste (poster grid/list geçişi, arama, tür filtresi, puana göre sıralama, pull-to-refresh)

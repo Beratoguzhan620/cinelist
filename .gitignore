@@ -23,10 +23,14 @@ google-services.json
 GoogleService-Info.plist
 
 # Local tooling
-.claude/
-CLAUDE.md
 docs/brief/
 *.pdf
+
+# json-server runtime data (seed lives in server/db.seed.json)
+server/db.json
+
+# TypeScript
+*.tsbuildinfo
 
 # Logs / OS
 npm-debug.*
