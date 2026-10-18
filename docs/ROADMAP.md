@@ -22,6 +22,7 @@ Her aşama ayrı bir branch ve PR olarak yapılır (`stage/<no>-<kisa-ad>`). Bir
 - [x] Yükleniyor / hata / boş durumları; optimistic update
 
 ## Aşama 3 — Cila ve teslim
-- [ ] App icon + splash; `npx tsc --noEmit` ve lint temiz
-- [ ] Expo web çıktısı yayında (canlı demo) + ekran görüntüleri/GIF
-- [ ] README (TR + EN)
+- [x] App icon + splash; `npx tsc --noEmit` ve lint temiz
+- [x] Ekran görüntüleri/GIF
+- [ ] Expo web çıktısı yayında (canlı demo)
+- [x] README (TR + EN)
