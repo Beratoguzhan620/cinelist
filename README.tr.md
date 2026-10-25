@@ -13,6 +13,8 @@ Telefon ve web için kişisel film arşivi: film ekle, düzenle, sil; afiş ya d
 
 ## Dene
 
+**Canlı demo:** [beratoguzhan620.github.io/cinelist](https://beratoguzhan620.github.io/cinelist/) (demo modunda web sürümü: filmler tarayıcında tutulur, sunucu gerekmez; yerelde de bu şekilde açmak için `EXPO_PUBLIC_DEMO=1` kullan)
+
 ```bash
 pnpm install
 pnpm dev:web
@@ -126,7 +128,6 @@ Uçtan uca akış gerçek bir tarayıcıda çalışır (`pnpm build:web`, `pnpm 
 
 ## Yol haritası ve bilinen eksikler
 
-- Canlı web demosu.
 - İzleme listesi ve "izlendiği tarih" bilgisi.
 - Koyu tema (renkleri tasarım belgesinde hazır).
 

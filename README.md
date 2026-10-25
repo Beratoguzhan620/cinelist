@@ -13,6 +13,8 @@ A personal film archive for phones and the web: add, edit and remove films, brow
 
 ## Try it
 
+**Live demo:** [beratoguzhan620.github.io/cinelist](https://beratoguzhan620.github.io/cinelist/) (the web version in demo mode: the films live in your browser, so it needs no server; set `EXPO_PUBLIC_DEMO=1` to run it that way locally)
+
 ```bash
 pnpm install
 pnpm dev:web
@@ -126,7 +128,6 @@ The end-to-end flow (`pnpm build:web`, `pnpm api`, `pnpm serve:web`, then `pnpm 
 
 ## Roadmap and known gaps
 
-- Live web demo.
 - Watch list and "watched on" dates.
 - Dark theme (the tokens are already in the design document).
 
