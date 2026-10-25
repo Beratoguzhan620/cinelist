@@ -19,7 +19,7 @@ import { GridSkeleton, ListSkeleton, StateMessage } from "@/components/StateView
 import { SortMenu } from "@/components/SortMenu";
 import { IconButton } from "@/components/ui/Button";
 import { Chip } from "@/components/ui/Chip";
-import { API_URL } from "@/lib/config";
+import { API_URL, DEMO } from "@/lib/config";
 import { filterFilms, genresInUse, sortFilms } from "@/lib/films";
 import { colors } from "@/lib/theme";
 import { useGetFilmsQuery } from "@/store/filmsApi";
@@ -140,6 +140,11 @@ export default function FilmsScreen() {
           ))}
         </ScrollView>
       </View>
+      {DEMO && (
+        <Text className="px-4 font-sans text-xs text-muted" testID="demo-note">
+          Demo: eklediğin ve düzenlediğin filmler yalnızca bu tarayıcıda saklanır.
+        </Text>
+      )}
     </View>
   );
 

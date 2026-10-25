@@ -1,11 +1,13 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
-import { API_URL } from "@/lib/config";
+import { API_URL, DEMO } from "@/lib/config";
 import type { Film, FilmInput } from "@/types/film";
+
+import { demoBaseQuery } from "./demoBaseQuery";
 
 export const filmsApi = createApi({
   reducerPath: "filmsApi",
-  baseQuery: fetchBaseQuery({ baseUrl: API_URL }),
+  baseQuery: DEMO ? demoBaseQuery : fetchBaseQuery({ baseUrl: API_URL }),
   tagTypes: ["Film"],
   endpoints: (build) => ({
     getFilms: build.query<Film[], void>({
