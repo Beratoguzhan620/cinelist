@@ -32,7 +32,7 @@ async function noHorizontalOverflow(page) {
 }
 
 const shot = (page, name) => page.screenshot({ path: `${OUT}${name}.png` });
-const cards = (page) => page.locator('a[href^="/films/"]');
+const cards = (page) => page.locator('a[href*="/films/"]');
 
 // Desktop
 const page = await newPage({ width: 1440, height: 900 });
